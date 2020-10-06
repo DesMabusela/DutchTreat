@@ -1,13 +1,68 @@
 ﻿body {
     font-family: 'Segoe UI ',Tahoma,Verdana, Geneva, Tahoma, sans-serif;
 }
+input[type="submit"]
+{
+    width:auto;
+}
 
 input, textarea{
     font-size:18px;
     width:200px;
 }
 
+
+
 label
 {
     font-size:16px;
+}
+#TheForm
+{
+    background-color:lightgray;
+}
+
+#TheForm input[type="submit"]
+{
+    background-color:green;
+    color:white;
+}
+
+ul.ProductProps
+{
+    font-size:small;
+}
+
+ul.ProductProps li
+{
+    list-style-type:none;
+}
+
+.ProductInfo
+{
+    border:1px solid black;
+    display:inline-block;
+    padding:8px 3px;
+    margin:2px;
+    width:450px;
+    background-color:lightgray;
+    border-radius:5px;
+}
+
+.ProductInfo img
+{
+    margin:3px;
+    float:left;
+    border:1px solid black;
+    max-width:150px;
+}
+
+#login
+{
+    cursor:pointer;
+   
+}
+#FormToggle
+{
+    background-color:blue;
 }
