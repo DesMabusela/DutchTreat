@@ -11,5 +11,13 @@
     var ProductInfo = $(".ProductProps li");
     ProductInfo.on("click", function () {
         console.log("you clicked on" + $(this).text());
-    })
+    });
+
+    var $loginToggle = $("#loginToggle");
+    var $PopupForm = $(".PopUpForm");
+
+    $loginToggle.on("click", function () {
+        $PopupForm.slideToggle(1000);
+
+    });
 });

@@ -1,4 +1,6 @@
-﻿body {
+﻿
+
+/*body {
     font-family: 'Segoe UI ',Tahoma,Verdana, Geneva, Tahoma, sans-serif;
 }
 input[type="submit"]
@@ -57,12 +59,45 @@ ul.ProductProps li
     max-width:150px;
 }
 
-#login
-{
-    cursor:pointer;
-   
+#loginToggle {
+    cursor: pointer;
+    color:blue;
 }
-#FormToggle
-{
-    background-color:blue;
+
+.PopUpForm {
+    padding: 5px;
+    border: 1px black inset;
+    display: inline-block;
 }
+
+    .PopUpForm input {
+        width: 200px;
+    }
+
+    .PopUpForm label {
+        width: 150px;
+        display: inline-block;
+    }
+
+    .PopUpForm input[type="checkbox"], .PopUpForm input[type=submit]
+    {
+        width:auto;
+    }
+
+    menu li
+    {
+       display:inline;
+    }
+    menu li::after
+    {
+        content:" |";
+    }
+
+menu li:last-of-type:after
+{
+    content:"";
+}
+
+
+
+*/
